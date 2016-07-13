@@ -1,0 +1,83 @@
+	/********************NAVBAR*******************/
+
+.navbar{
+	padding: 10px 0 10px 0;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 0;
+	border-color: transparent;
+}
+ .navbar-default p, .navbar-collapse .navbar-nav li a{
+ 	color:#fff;
+ }
+
+ .navbar-collapse .navbar-nav li a:hover, .navbar-collapse .navbar-nav li a:focus,.navbar-collapse .navbar-nav li a:active:focus{
+ 	color:#16a085;
+ }
+
+ /*************NAVBAR END*******************/
+
+
+ /************INPUT START********************/
+
+#input_file .row{
+	padding-top: 1%;
+}
+
+.error{
+	color:red;
+}
+
+.success{
+	color:green;
+}
+
+.row .form-group .col-md-2{
+	text-align: center;
+}
+
+@media(max-width: 768px) {
+
+	.row .form-group .col-md-2{
+		text-align: left;
+	}
+}
+
+/*******************INPUT END********************/
+
+
+/***************** LOGIN START****************/
+
+#login{
+	background-image: url('../img/bg1.jpeg');
+	background-size: cover;
+	width:100%;
+	height: 100%;
+}
+#login div.container, a{
+	padding-bottom: 28%;
+	padding-top:16%;
+	padding-left:50%;
+
+}
+
+@media(max-width: 768px) {
+	#login div.container{
+		padding-left:1%;
+
+	}
+
+}
+
+/*****************LOGIN END************************/
+
+/****************MYPINS START*********************/
+
+#mypins .container .row img{
+	max-height: 250px;
+}
+
+#mypins .container .row .col-md-3{
+	padding-top: 30px;
+	float: left !important;
+}
+/***************MYPINS END*************************/
